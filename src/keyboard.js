@@ -10,14 +10,19 @@ module.exports = {
   hasSite: [
     [kb.hasSite.haveSite, kb.hasSite.noSite]
   ],
+  deskSite: [
+    [kb.deskSite.haveDesk, kb.deskSite.noDesk]
+  ],
   contact: [
-    [kb.contact.phone, kb.contact.email]
+    [kb.contact.phone, kb.contact.email],
+    [kb.contact.input_phone]
   ],
   films: [
   	[kb.film.random],
   	[kb.film.action, kb.film.comedy],
   	[kb.back]
   ],
+
   cinemas: [
   	[
   		{
