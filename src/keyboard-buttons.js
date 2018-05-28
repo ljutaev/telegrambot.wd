@@ -13,10 +13,18 @@ module.exports = {
 		haveSite: "Есть сайт",
 		noSite: "Нет сайта"
 	},
+	briefOrMeneger: {
+		one: "Заполнить бриф",
+		two: "Связать с менеджером"
+	},
 	contact: {
 		phone: {text: "Телефон", request_contact: true},
 		email: "E-mail",
 		input_phone: "Ввести телефон"
+	},
+	modernizeSite: {
+		yes: "Хочу улучшить",
+		no: "Не хочу"
 	},
 	film: {
 		random: 'Случайный жанр',

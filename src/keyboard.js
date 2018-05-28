@@ -17,6 +17,12 @@ module.exports = {
     [kb.contact.phone, kb.contact.email],
     [kb.contact.input_phone]
   ],
+  modernizeSite: [
+    [kb.modernizeSite.yes, kb.modernizeSite.no]
+  ],
+  briefOrMeneger: [
+    [kb.briefOrMeneger.one, kb.briefOrMeneger.two]
+  ],
   films: [
   	[kb.film.random],
   	[kb.film.action, kb.film.comedy],
