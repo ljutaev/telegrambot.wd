@@ -23,19 +23,16 @@ module.exports = {
   briefOrMeneger: [
     [kb.briefOrMeneger.one, kb.briefOrMeneger.two]
   ],
-  films: [
-  	[kb.film.random],
-  	[kb.film.action, kb.film.comedy],
-  	[kb.back]
+  contactChoice: [
+    [kb.contactChoice.email, kb.contactChoice.phone]
   ],
-
-  cinemas: [
-  	[
-  		{
-  			text: 'Отправить местоположения',
-  			request_location: true
-  		}
-  	],
-  	[kb.back]
+  sendPhoneChoice: [
+    [kb.sendPhoneChoice.sendContact]
+  ],
+  wantNewSite: [
+    [kb.wantNewSite.yes, kb.wantNewSite.no]
+  ],
+  noSendLink: [
+    [kb.noSendLink]
   ]
 }
